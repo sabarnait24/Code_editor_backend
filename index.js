@@ -11,8 +11,8 @@ const path = require("path");
 
 const io = require("socket.io")(http, {
   cors: {
-    origin: ["http://localhost:3000/"],
-    // origin: ["https://online-ide-frontend.vercel.app/"],
+    // origin: ["http://localhost:3000/"],
+    origin: ["https://code-editor-frontend.vercel.app/"],
     origin: "*",
   },
 });
